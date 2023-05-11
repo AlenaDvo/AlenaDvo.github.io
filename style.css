@@ -1,0 +1,97 @@
+.image-container {
+  margin: 0px auto;
+  position: relative;
+  width: 900px;
+  font-family: Abril Fatface;
+  color: #222222;
+}
+
+.image-container img {
+  position: absolute;
+  margin-bottom: 15px;
+}
+
+.image-container .first-title {
+  position: absolute;
+  top: 170px;
+  left: 180px;
+  font-size: 25px;
+}
+
+.image-container .second-title {
+  position: absolute;
+  top: 190px;
+  left: 180px;
+  font-size: 50px;
+}
+
+main {
+  padding-top: 310px;
+  position: absolute;
+  left: 180px;
+}
+
+p, ul {
+  font-family: "Josefin Sans";
+  font-size: 15px;
+  color: #222222;
+  width: 550px;
+  list-style: square;
+}
+
+blockquote {
+  font-family: Abril Fatface;
+  font-size: 35px;
+  background-color: #222222; 
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 30px;
+  margin-top: 45px;
+  margin-left: 0px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 0px;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 100px;
+  position: absolute;
+  top: -30px;
+  padding-bottom: 0px;
+  bottom: 0px; 
+  display: block;
+  left: 0px;
+}
+   
+h3 {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-family: "Josefin Sans";
+  font-size: 15px;
+  color: #222222;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.text {
+  font-family: "Josefin Sans";
+  font-size: 11px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 550px;
+}
+
+h5 {
+  font-family: "Merriweather";
+  font-size: 11px;
+  margin-top: 0px;
+}
